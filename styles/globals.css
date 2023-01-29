@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-white[#1f2937] tracking-wide;
+    @apply bg-[#ecf0f3] text-white tracking-wide;
   }
 
   h1,
@@ -29,6 +29,6 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-blue to-purple text-white;
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e] to-[purple] text-white;
   }
 }
